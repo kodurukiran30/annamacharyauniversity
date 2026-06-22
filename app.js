@@ -1,8 +1,8 @@
 const app = document.querySelector("#app");
 const toastEl = document.querySelector("#toast");
 const API_BASES = location.protocol === "file:"
-  ? ["http://127.0.0.1:8000"]
-  : ["http://127.0.0.1:8000", ""];
+  ? ["https://kodurukiran30.github.io/annamacharyauniversity/"]
+  : ["https://kodurukiran30.github.io/annamacharyauniversity/", ""];
 
 const state = {
   mode: "login",
