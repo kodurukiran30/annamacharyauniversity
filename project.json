@@ -1,0 +1,41 @@
+{
+  "projectName": "Annamacharya University Portal",
+  "type": "Full Stack Web Application",
+  "frontend": {
+    "entry": "index.html",
+    "styles": "styles.css",
+    "logic": "app.js",
+    "theme": "Professional academic portal"
+  },
+  "backend": {
+    "entry": "server.py",
+    "framework": "Python HTTP server",
+    "database": "SQLite",
+    "databaseFile": "annamacharya.db"
+  },
+  "roles": [
+    "Student",
+    "Faculty",
+    "HOD"
+  ],
+  "features": [
+    "Student and faculty registration",
+    "Private HOD login",
+    "OTP password reset for student and faculty",
+    "Student attendance view",
+    "Semester results",
+    "Fee payments",
+    "Faculty attendance marking for registered students",
+    "HOD reports",
+    "Student roll-list PDF link",
+    "Faculty members list",
+    "Dashboard hamburger menu"
+  ],
+  "hod": {
+    "name": "Dr. B.Phaneendra kumar",
+    "branch": "AI&DS",
+    "students": 1500,
+    "facultyMembers": 20
+  },
+  "runUrl": "http://127.0.0.1:8000/"
+}
